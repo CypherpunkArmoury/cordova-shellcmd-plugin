@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    id="com.cypherpunkarmoury.plugin.ShellCmdPlugin"
+    version="1.0.0">
+
+    <name>ShellCmdPlugin</name>
+
+    <description>
+        Cordova ShellCmdPlugin
+    </description>
+
+    <asset src="www/ShellCmdPlugin.js" target="plugins/ShellCmdPlugin.js" />
+
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="ShellCmdPlugin">
+                <param name="android-package" value="com.cypherpunkarmoury.plugin.ShellCmdPlugin" />
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/com/cypherpunkarmoury/plugin/ShellCmdPlugin.java" target-dir="src/com/cypherpunkarmoury/plugin" />
+    </platform>
+
+    <!-- more platforms here -->
+
+</plugin>

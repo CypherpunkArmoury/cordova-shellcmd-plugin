@@ -1,0 +1,31 @@
+{
+  "name": "ShellCmdPlugin",
+  "version": "1.0.0",
+  "description": "\n        Cordova ShellCmdPlugin\n    ",
+  "cordova": {
+    "id": "com.cypherpunkarmoury.plugin.ShellCmdPlugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CypherpunkArmoury/cordova-shellcmd-plugin.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "CypherpunkArmoury",
+  "license": "Apache License",
+  "bugs": {
+    "url": "https://github.com/CypherpunkArmoury/cordova-shellcmd-plugin/issues"
+  },
+  "homepage": "https://github.com/CypherpunkArmoury/cordova-shellcmd-plugin#readme"
+}
